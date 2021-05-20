@@ -1,0 +1,70 @@
+.banner {
+  background-image: url('../../images/background.png');
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.banner h1, .banner p {
+  color: white;
+}
+
+.banner p {
+  opacity: .7;
+  font-size: 20px;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: #1EDD88;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230 230 230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+}
+
+.card img {
+    height: 100px;
+}
+.card p {
+    opacity: .5;
+}
+
+.footer {
+    text-align: center;
+    padding: 60px;
+    background-color: #2c2b2b;
+}
+
+.footer a {
+    font-size: 30px;
+    color: #1EDD88;
+}
+
+.footer p {
+    color: #6B6C6C;
+}
+
+.footer .fas {
+    color: #BF0F12;
+}
